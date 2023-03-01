@@ -2,6 +2,30 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    color: #161616;
+}
+a {
+    color: #161616;
+}
+.visually-hidden {
+    display: none;
+}
+.card-category {
+    color: #d73953;
+}
+.section-tagline {
+    color: #d73953;
+}
+
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-gray: #f3f3f3;
+    --color-dark-gray: #353535;
+    --text-color: var(--color-black);
+}
+body {
     color: var(--text-color);
 }
 a {
@@ -15,12 +39,4 @@ a {
 }
 .section-tagline {
     color: var(--color-primary);
-}
-:root {
-    --color-primary: #d73953;
-    --color-black: #090909;
-    --color-white: #ffffff;
-    --color-light-gray: #f3f3f3;
-    --color-dark-gray: #353535;
-    --text-color: var(--color-black);
 }
